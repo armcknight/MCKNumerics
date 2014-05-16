@@ -26,6 +26,7 @@
 		4932FB171924546F009AB1BC /* MCKTribool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4932FB0C1924546F009AB1BC /* MCKTribool.m */; };
 		4932FB181924546F009AB1BC /* MCKPolynomial.m in Sources */ = {isa = PBXBuildFile; fileRef = 4932FB101924546F009AB1BC /* MCKPolynomial.m */; };
 		4932FB191924546F009AB1BC /* MCKQuadratic.m in Sources */ = {isa = PBXBuildFile; fileRef = 4932FB121924546F009AB1BC /* MCKQuadratic.m */; };
+		4932FB8119245A7F009AB1BC /* MCKTriboolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4932FB8019245A7F009AB1BC /* MCKTriboolTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		4932FB101924546F009AB1BC /* MCKPolynomial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCKPolynomial.m; sourceTree = "<group>"; };
 		4932FB111924546F009AB1BC /* MCKQuadratic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCKQuadratic.h; sourceTree = "<group>"; };
 		4932FB121924546F009AB1BC /* MCKQuadratic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCKQuadratic.m; sourceTree = "<group>"; };
+		4932FB8019245A7F009AB1BC /* MCKTriboolTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCKTriboolTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				4932FAF51924538F009AB1BC /* MCKNumericsTests.m */,
+				4932FB8019245A7F009AB1BC /* MCKTriboolTests.m */,
 				4932FAF01924538F009AB1BC /* Supporting Files */,
 			);
 			path = MCKNumericsTests;
@@ -328,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4932FAF61924538F009AB1BC /* MCKNumericsTests.m in Sources */,
+				4932FB8119245A7F009AB1BC /* MCKTriboolTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
