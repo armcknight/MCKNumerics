@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>MCKNumerics.xcscheme</key>
+		<key>MCKNumerics-Test.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,7 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4932FACC1924538F009AB1BC</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>4932FAE71924538F009AB1BC</key>
+		<key>4997356F19259BFF0004A8E5</key>
 		<dict>
 			<key>primary</key>
 			<true/>

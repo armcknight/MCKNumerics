@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4997357419259BFF0004A8E5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4997357319259BFF0004A8E5 /* XCTest.framework */; };
+		4997357619259BFF0004A8E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4997357519259BFF0004A8E5 /* Foundation.framework */; };
+		4997357819259BFF0004A8E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4997357719259BFF0004A8E5 /* UIKit.framework */; };
+		4997357E19259BFF0004A8E5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4997357C19259BFF0004A8E5 /* InfoPlist.strings */; };
+		4997358619259C1F0004A8E5 /* MCKTriboolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4997358519259C1F0004A8E5 /* MCKTriboolTests.m */; };
+		4997359C19259C880004A8E5 /* NSNumber+MCKMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 4997358A19259C880004A8E5 /* NSNumber+MCKMath.m */; };
+		4997359D19259C880004A8E5 /* MCKComplexNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 4997358D19259C880004A8E5 /* MCKComplexNumber.m */; };
+		4997359E19259C880004A8E5 /* MCKPair.m in Sources */ = {isa = PBXBuildFile; fileRef = 4997359019259C880004A8E5 /* MCKPair.m */; };
+		4997359F19259C880004A8E5 /* MCKRealNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 4997359219259C880004A8E5 /* MCKRealNumber.m */; };
+		499735A019259C880004A8E5 /* MCKTribool.m in Sources */ = {isa = PBXBuildFile; fileRef = 4997359419259C880004A8E5 /* MCKTribool.m */; };
+		499735A119259C880004A8E5 /* MCKPolynomial.m in Sources */ = {isa = PBXBuildFile; fileRef = 4997359819259C880004A8E5 /* MCKPolynomial.m */; };
+		499735A219259C880004A8E5 /* MCKQuadratic.m in Sources */ = {isa = PBXBuildFile; fileRef = 4997359A19259C880004A8E5 /* MCKQuadratic.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4997357019259BFF0004A8E5 /* MCKNumerics-Test.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MCKNumerics-Test.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4997357319259BFF0004A8E5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4997357519259BFF0004A8E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4997357719259BFF0004A8E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		4997357B19259BFF0004A8E5 /* MCKNumerics-Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MCKNumerics-Test-Info.plist"; sourceTree = "<group>"; };
+		4997357D19259BFF0004A8E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4997358119259BFF0004A8E5 /* MCKNumerics-Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MCKNumerics-Test-Prefix.pch"; sourceTree = "<group>"; };
+		4997358519259C1F0004A8E5 /* MCKTriboolTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCKTriboolTests.m; sourceTree = "<group>"; };
+		4997358919259C880004A8E5 /* NSNumber+MCKMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+MCKMath.h"; sourceTree = "<group>"; };
+		4997358A19259C880004A8E5 /* NSNumber+MCKMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+MCKMath.m"; sourceTree = "<group>"; };
+		4997358C19259C880004A8E5 /* MCKComplexNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCKComplexNumber.h; sourceTree = "<group>"; };
+		4997358D19259C880004A8E5 /* MCKComplexNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCKComplexNumber.m; sourceTree = "<group>"; };
+		4997358E19259C880004A8E5 /* MCKNumberFormats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCKNumberFormats.h; sourceTree = "<group>"; };
+		4997358F19259C880004A8E5 /* MCKPair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCKPair.h; sourceTree = "<group>"; };
+		4997359019259C880004A8E5 /* MCKPair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCKPair.m; sourceTree = "<group>"; };
+		4997359119259C880004A8E5 /* MCKRealNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCKRealNumber.h; sourceTree = "<group>"; };
+		4997359219259C880004A8E5 /* MCKRealNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCKRealNumber.m; sourceTree = "<group>"; };
+		4997359319259C880004A8E5 /* MCKTribool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCKTribool.h; sourceTree = "<group>"; };
+		4997359419259C880004A8E5 /* MCKTribool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCKTribool.m; sourceTree = "<group>"; };
+		4997359619259C880004A8E5 /* MCKEquation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCKEquation.h; sourceTree = "<group>"; };
+		4997359719259C880004A8E5 /* MCKPolynomial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCKPolynomial.h; sourceTree = "<group>"; };
+		4997359819259C880004A8E5 /* MCKPolynomial.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCKPolynomial.m; sourceTree = "<group>"; };
+		4997359919259C880004A8E5 /* MCKQuadratic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCKQuadratic.h; sourceTree = "<group>"; };
+		4997359A19259C880004A8E5 /* MCKQuadratic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCKQuadratic.m; sourceTree = "<group>"; };
+		499735A419259E390004A8E5 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4997356D19259BFF0004A8E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4997357419259BFF0004A8E5 /* XCTest.framework in Frameworks */,
+				4997357819259BFF0004A8E5 /* UIKit.framework in Frameworks */,
+				4997357619259BFF0004A8E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4997356519259BA40004A8E5 = {
+			isa = PBXGroup;
+			children = (
+				499735A419259E390004A8E5 /* LICENSE */,
+				4997358719259C880004A8E5 /* MCKNumerics */,
+				4997357919259BFF0004A8E5 /* MCKNumerics-Test */,
+				4997357219259BFF0004A8E5 /* Frameworks */,
+				4997357119259BFF0004A8E5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4997357119259BFF0004A8E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4997357019259BFF0004A8E5 /* MCKNumerics-Test.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4997357219259BFF0004A8E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4997357319259BFF0004A8E5 /* XCTest.framework */,
+				4997357519259BFF0004A8E5 /* Foundation.framework */,
+				4997357719259BFF0004A8E5 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4997357919259BFF0004A8E5 /* MCKNumerics-Test */ = {
+			isa = PBXGroup;
+			children = (
+				4997358519259C1F0004A8E5 /* MCKTriboolTests.m */,
+				4997357A19259BFF0004A8E5 /* Supporting Files */,
+			);
+			path = "MCKNumerics-Test";
+			sourceTree = "<group>";
+		};
+		4997357A19259BFF0004A8E5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4997357B19259BFF0004A8E5 /* MCKNumerics-Test-Info.plist */,
+				4997357C19259BFF0004A8E5 /* InfoPlist.strings */,
+				4997358119259BFF0004A8E5 /* MCKNumerics-Test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4997358719259C880004A8E5 /* MCKNumerics */ = {
+			isa = PBXGroup;
+			children = (
+				4997358819259C880004A8E5 /* Categories */,
+				4997358B19259C880004A8E5 /* Data Types */,
+				4997359519259C880004A8E5 /* Equations */,
+			);
+			path = MCKNumerics;
+			sourceTree = "<group>";
+		};
+		4997358819259C880004A8E5 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				4997358919259C880004A8E5 /* NSNumber+MCKMath.h */,
+				4997358A19259C880004A8E5 /* NSNumber+MCKMath.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		4997358B19259C880004A8E5 /* Data Types */ = {
+			isa = PBXGroup;
+			children = (
+				4997358C19259C880004A8E5 /* MCKComplexNumber.h */,
+				4997358D19259C880004A8E5 /* MCKComplexNumber.m */,
+				4997358E19259C880004A8E5 /* MCKNumberFormats.h */,
+				4997358F19259C880004A8E5 /* MCKPair.h */,
+				4997359019259C880004A8E5 /* MCKPair.m */,
+				4997359119259C880004A8E5 /* MCKRealNumber.h */,
+				4997359219259C880004A8E5 /* MCKRealNumber.m */,
+				4997359319259C880004A8E5 /* MCKTribool.h */,
+				4997359419259C880004A8E5 /* MCKTribool.m */,
+			);
+			path = "Data Types";
+			sourceTree = "<group>";
+		};
+		4997359519259C880004A8E5 /* Equations */ = {
+			isa = PBXGroup;
+			children = (
+				4997359619259C880004A8E5 /* MCKEquation.h */,
+				4997359719259C880004A8E5 /* MCKPolynomial.h */,
+				4997359819259C880004A8E5 /* MCKPolynomial.m */,
+				4997359919259C880004A8E5 /* MCKQuadratic.h */,
+				4997359A19259C880004A8E5 /* MCKQuadratic.m */,
+			);
+			path = Equations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4997356F19259BFF0004A8E5 /* MCKNumerics-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4997358219259BFF0004A8E5 /* Build configuration list for PBXNativeTarget "MCKNumerics-Test" */;
+			buildPhases = (
+				4997356C19259BFF0004A8E5 /* Sources */,
+				4997356D19259BFF0004A8E5 /* Frameworks */,
+				4997356E19259BFF0004A8E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MCKNumerics-Test";
+			productName = "MCKNumerics-Test";
+			productReference = 4997357019259BFF0004A8E5 /* MCKNumerics-Test.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4997356619259BA40004A8E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MCK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = AMProductions;
+			};
+			buildConfigurationList = 4997356919259BA40004A8E5 /* Build configuration list for PBXProject "MCKNumerics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4997356519259BA40004A8E5;
+			productRefGroup = 4997357119259BFF0004A8E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4997356F19259BFF0004A8E5 /* MCKNumerics-Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4997356E19259BFF0004A8E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4997357E19259BFF0004A8E5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4997356C19259BFF0004A8E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499735A119259C880004A8E5 /* MCKPolynomial.m in Sources */,
+				4997359D19259C880004A8E5 /* MCKComplexNumber.m in Sources */,
+				499735A219259C880004A8E5 /* MCKQuadratic.m in Sources */,
+				4997359F19259C880004A8E5 /* MCKRealNumber.m in Sources */,
+				4997358619259C1F0004A8E5 /* MCKTriboolTests.m in Sources */,
+				499735A019259C880004A8E5 /* MCKTribool.m in Sources */,
+				4997359C19259C880004A8E5 /* NSNumber+MCKMath.m in Sources */,
+				4997359E19259C880004A8E5 /* MCKPair.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4997357C19259BFF0004A8E5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4997357D19259BFF0004A8E5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4997356A19259BA40004A8E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		4997356B19259BA40004A8E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		4997358319259BFF0004A8E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MCKNumerics-Test/MCKNumerics-Test-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "MCKNumerics-Test/MCKNumerics-Test-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4997358419259BFF0004A8E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MCKNumerics-Test/MCKNumerics-Test-Prefix.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "MCKNumerics-Test/MCKNumerics-Test-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4997356919259BA40004A8E5 /* Build configuration list for PBXProject "MCKNumerics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4997356A19259BA40004A8E5 /* Debug */,
+				4997356B19259BA40004A8E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4997358219259BFF0004A8E5 /* Build configuration list for PBXNativeTarget "MCKNumerics-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4997358319259BFF0004A8E5 /* Debug */,
+				4997358419259BFF0004A8E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4997356619259BA40004A8E5 /* Project object */;
+}
