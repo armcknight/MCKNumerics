@@ -1,6 +1,6 @@
 //
 //  MCKNumberFormats.h
-//  MCKMath
+//  MCKNumerics
 //
 //  Created by andrew mcknight on 4/13/14.
 //
@@ -25,8 +25,8 @@
 //  SOFTWARE.
 //
 
-#ifndef MAVNumerics_MCKNumberFormats_h
-#define MAVNumerics_MCKNumberFormats_h
+#ifndef MCKNumerics_MCKNumberFormats_h
+#define MCKNumerics_MCKNumberFormats_h
 
 typedef enum : UInt8 {
     MCKValuePrecisionSingle,

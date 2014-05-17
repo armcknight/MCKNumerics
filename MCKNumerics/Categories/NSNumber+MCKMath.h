@@ -1,6 +1,6 @@
 //
 //  NSNumber+MCKMath.h
-//  MAVNumerics
+//  MCKNumerics
 //
 //  Created by andrew mcknight on 12/13/13.
 //

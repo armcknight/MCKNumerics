@@ -1,6 +1,6 @@
 //
 //  MCKPolynomial.m
-//  MCKMath
+//  MCKNumerics
 //
 //  Created by andrew mcknight on 12/13/13.
 //

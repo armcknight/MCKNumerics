@@ -1,6 +1,6 @@
 //
 //  MCKPair.h
-//  MCKMath
+//  MCKNumerics
 //
 //  Created by andrew mcknight on 2/15/14.
 //

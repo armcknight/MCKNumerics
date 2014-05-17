@@ -1,6 +1,6 @@
 //
 //  MCKRealNumber.m
-//  MCKMath
+//  MCKNumerics
 //
 //  Created by andrew mcknight on 4/12/14.
 //

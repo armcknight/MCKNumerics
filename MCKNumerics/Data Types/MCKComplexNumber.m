@@ -1,6 +1,6 @@
 //
 //  MCKComplexNumber.m
-//  MCKMath
+//  MCKNumerics
 //
 //  Created by andrew mcknight on 4/13/14.
 //

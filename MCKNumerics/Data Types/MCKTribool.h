@@ -1,6 +1,6 @@
 //
 //  MCKTribool.h
-//  MCKMath
+//  MCKNumerics
 //
 //  Created by andrew mcknight on 1/4/14.
 //
