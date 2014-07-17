@@ -8,9 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
+#import "MCKNumberFormats.h"
+
 @interface NSNumber (MCKPrecision)
 
 - (BOOL)isSinglePrecision;
 - (BOOL)isDoublePrecision;
+- (MCKValuePrecision)precision;
 
 @end

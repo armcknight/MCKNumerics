@@ -20,4 +20,9 @@
     return strcmp(self.objCType, @encode(double)) == 0;
 }
 
+- (MCKValuePrecision)precision
+{
+    return self.isDoublePrecision ? MCKValuePrecisionDouble : MCKValuePrecisionSingle;
+}
+
 @end
