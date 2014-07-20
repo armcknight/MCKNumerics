@@ -29,14 +29,14 @@
 
 @interface MCKRealNumber ()
 
-@property (assign, nonatomic, readwrite) MCKValuePrecision precision;
+@property (assign, nonatomic, readwrite) MCKPrecision precision;
 @property (strong, nonatomic, readwrite) NSNumber *realValue;
 
 @end
 
 @implementation MCKRealNumber
 
-- (instancetype)initWithValue:(NSNumber *)value precision:(MCKValuePrecision)precision
+- (instancetype)initWithValue:(NSNumber *)value precision:(MCKPrecision)precision
 {
     self = [super init];
     if (self != nil) {
@@ -46,7 +46,7 @@
     return self;
 }
 
-+ (instancetype)realNumberWithValue:(NSNumber *)value precision:(MCKValuePrecision)precision
++ (instancetype)realNumberWithValue:(NSNumber *)value precision:(MCKPrecision)precision
 {
     return [[self alloc] initWithValue:value precision:precision];
 }

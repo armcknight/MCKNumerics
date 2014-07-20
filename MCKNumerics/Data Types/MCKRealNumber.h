@@ -30,14 +30,14 @@
 typedef enum : UInt8 {
     MCKPrecisionSingle,
     MCKPrecisionDouble,
-} MCKValuePrecision;
+} MCKPrecision;
 
 @interface MCKRealNumber : NSObject
 
-@property (assign, nonatomic, readonly) MCKValuePrecision precision;
+@property (assign, nonatomic, readonly) MCKPrecision precision;
 @property (strong, nonatomic, readonly) NSNumber *realValue;
 
-- (instancetype)initWithValue:(NSNumber *)value precision:(MCKValuePrecision)precision;
-+ (instancetype)realNumberWithValue:(NSNumber *)value precision:(MCKValuePrecision)precision;
+- (instancetype)initWithValue:(NSNumber *)value precision:(MCKPrecision)precision;
++ (instancetype)realNumberWithValue:(NSNumber *)value precision:(MCKPrecision)precision;
 
 @end

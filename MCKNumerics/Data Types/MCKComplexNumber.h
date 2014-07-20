@@ -31,7 +31,7 @@
 
 @property (strong, nonatomic, readonly) NSValue *imaginaryValue;
 
-- (instancetype)initWithRealValue:(const void *)realValue imaginaryValue:(const void *)imaginaryValue precision:(MCKValuePrecision)precision;
-+ (instancetype)complexNumberWithRealValue:(const void *)realValue imaginaryValue:(const void *)imaginaryValue precision:(MCKValuePrecision)precision;
+- (instancetype)initWithRealValue:(const void *)realValue imaginaryValue:(const void *)imaginaryValue precision:(MCKPrecision)precision;
++ (instancetype)complexNumberWithRealValue:(const void *)realValue imaginaryValue:(const void *)imaginaryValue precision:(MCKPrecision)precision;
 
 @end

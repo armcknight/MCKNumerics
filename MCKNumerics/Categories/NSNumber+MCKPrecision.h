@@ -30,12 +30,12 @@
 typedef enum : UInt8 {
     MCKPrecisionSingle,
     MCKPrecisionDouble,
-} MCKValuePrecision;
+} MCKPrecision;
 
 @interface NSNumber (MCKPrecision)
 
 - (BOOL)isSinglePrecision;
 - (BOOL)isDoublePrecision;
-- (MCKValuePrecision)precision;
+- (MCKPrecision)precision;
 
 @end

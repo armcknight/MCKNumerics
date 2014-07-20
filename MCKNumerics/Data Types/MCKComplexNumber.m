@@ -35,7 +35,7 @@
 
 @implementation MCKComplexNumber
 
-- (instancetype)initWithRealValue:(const void *)realValue imaginaryValue:(const void *)imaginaryValue precision:(MCKValuePrecision)precision
+- (instancetype)initWithRealValue:(const void *)realValue imaginaryValue:(const void *)imaginaryValue precision:(MCKPrecision)precision
 {
     self = [super initWithValue:(__bridge NSNumber *)(realValue) precision:precision];
     if (self != nil) {
@@ -44,7 +44,7 @@
     return self;
 }
 
-+ (instancetype)complexNumberWithRealValue:(const void *)realValue imaginaryValue:(const void *)imaginaryValue precision:(MCKValuePrecision)precision
++ (instancetype)complexNumberWithRealValue:(const void *)realValue imaginaryValue:(const void *)imaginaryValue precision:(MCKPrecision)precision
 {
     return [[self alloc] initWithRealValue:realValue imaginaryValue:imaginaryValue precision:precision];
 }
