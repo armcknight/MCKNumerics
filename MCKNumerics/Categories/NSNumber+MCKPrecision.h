@@ -8,7 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-#import "MCKNumberFormats.h"
+typedef enum : UInt8 {
+    MCKPrecisionSingle,
+    MCKPrecisionDouble,
+} MCKValuePrecision;
 
 @interface NSNumber (MCKPrecision)
 

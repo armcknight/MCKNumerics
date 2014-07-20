@@ -39,7 +39,7 @@
 {
     self = [super initWithValue:(__bridge NSNumber *)(realValue) precision:precision];
     if (self != nil) {
-        _imaginaryValue = [NSValue valueWithBytes:imaginaryValue objCType:precision == MCKValuePrecisionSingle ? @encode(float) : @encode(double)];
+        _imaginaryValue = [NSValue valueWithBytes:imaginaryValue objCType:precision == MCKPrecisionSingle ? @encode(float) : @encode(double)];
     }
     return self;
 }

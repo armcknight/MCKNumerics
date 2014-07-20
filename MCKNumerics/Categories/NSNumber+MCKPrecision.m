@@ -22,7 +22,7 @@
 
 - (MCKValuePrecision)precision
 {
-    return self.isDoublePrecision ? MCKValuePrecisionDouble : MCKValuePrecisionSingle;
+    return self.isDoublePrecision ? MCKPrecisionDouble : MCKPrecisionSingle;
 }
 
 @end
