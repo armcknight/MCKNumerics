@@ -29,12 +29,12 @@
 
 @implementation NSNumber (MCKRandom)
 
-- (NSNumber *)mck_randomDoublePrecisionFloat
++ (NSNumber *)mck_randomDouble
 {
     return @(drand48());
 }
 
-- (NSNumber *)mck_randomSinglePrecisionFloat
++ (NSNumber *)mck_randomFloat
 {
     return @(rand() / RAND_MAX);
 }

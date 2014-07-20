@@ -29,7 +29,7 @@
 
 @interface NSNumber (MCKRandom)
 
-- (NSNumber *)mck_randomDoublePrecisionFloat;
-- (NSNumber *)mck_randomSinglePrecisionFloat;
++ (NSNumber *)mck_randomDouble;
++ (NSNumber *)mck_randomFloat;
 
 @end
