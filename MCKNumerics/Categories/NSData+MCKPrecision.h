@@ -29,7 +29,7 @@
 
 @interface NSData (MCKPrecision)
 
-- (BOOL)containsSinglePrecisionValues:(NSUInteger)numberOfValues;
-- (BOOL)containsDoublePrecisionValues:(NSUInteger)numberOfValues;
+- (BOOL)containsSinglePrecisionValues:(size_t)numberOfValues;
+- (BOOL)containsDoublePrecisionValues:(size_t)numberOfValues;
 
 @end

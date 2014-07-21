@@ -29,12 +29,12 @@
 
 @implementation NSData (MCKPrecision)
 
-- (BOOL)containsSinglePrecisionValues:(NSUInteger)numberOfValues
+- (BOOL)containsSinglePrecisionValues:(size_t)numberOfValues
 {
     return (self.length / numberOfValues) == sizeof(float);
 }
 
-- (BOOL)containsDoublePrecisionValues:(NSUInteger)numberOfValues
+- (BOOL)containsDoublePrecisionValues:(size_t)numberOfValues
 {
     return (self.length / numberOfValues) == sizeof(double);
 }
