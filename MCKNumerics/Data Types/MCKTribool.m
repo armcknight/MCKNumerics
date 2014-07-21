@@ -102,15 +102,15 @@
 #pragma mark - Class operators
 
 + (MCKTriboolValue)conjunctionOfTriboolValueA:(MCKTriboolValue)triboolValueA
-                               triboolValueB:(MCKTriboolValue)triboolValueB
+                                triboolValueB:(MCKTriboolValue)triboolValueB
 {
-    return MIN(triboolValueA, triboolValueB);
+    return (MCKTriboolValue)MIN(triboolValueA, triboolValueB);
 }
 
 + (MCKTriboolValue)disjunctionOfTriboolValueA:(MCKTriboolValue)triboolValueA
-                               triboolValueB:(MCKTriboolValue)triboolValueB
+                                triboolValueB:(MCKTriboolValue)triboolValueB
 {
-    return MAX(triboolValueA, triboolValueB);
+    return (MCKTriboolValue)MAX(triboolValueA, triboolValueB);
 }
 
 + (MCKTriboolValue)negationOfTriboolValue:(MCKTriboolValue)triboolValue
@@ -119,15 +119,15 @@
 }
 
 + (MCKTriboolValue)kleeneImplicationOfTriboolValueA:(MCKTriboolValue)triboolValueA
-                                     triboolValueB:(MCKTriboolValue)triboolValueB
+                                      triboolValueB:(MCKTriboolValue)triboolValueB
 {
-    return MAX(-1 * triboolValueA, triboolValueB);
+    return (MCKTriboolValue)MAX(-1 * triboolValueA, triboolValueB);
 }
 
 + (MCKTriboolValue)lukasiewiczImplicationOfTriboolValueA:(MCKTriboolValue)triboolValueA
-                                          triboolValueB:(MCKTriboolValue)triboolValueB
+                                           triboolValueB:(MCKTriboolValue)triboolValueB
 {
-    return MIN(1, 1 - triboolValueA + triboolValueB);
+    return (MCKTriboolValue)MIN(1, 1 - triboolValueA + triboolValueB);
 }
 
 
