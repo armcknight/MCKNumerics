@@ -84,6 +84,18 @@
     return [derivative evaluateAtValue:value];
 }
 
+- (NSNumber *)areaUnderCurveBetweenA:(NSNumber *)a b:(NSNumber *)b
+{
+    // TODO: implement
+    return nil;
+}
+
+- (NSNumber *)arcLengthBetweenA:(NSNumber *)a b:(NSNumber *)b
+{
+    // TODO: implement
+    return nil;
+}
+
 #pragma mark - NSObject overrides
 
 - (BOOL)isEqualToPolynomial:(MCKPolynomial *)otherPolynomial
@@ -127,5 +139,32 @@
     
     return description;
 }
+
+#pragma mark - Operations
+
+- (NSNumber *)rootNearValue:(NSNumber *)value
+{
+    // TODO: implement
+    return nil;
+}
+
+- (NSNumber *)localMaximumNearValue:(NSNumber *)value
+{
+    // TODO: implement
+    return nil;
+}
+
+- (NSNumber *)localMinimumNearValue:(NSNumber *)value
+{
+    // TODO: implement
+    return nil;
+}
+
+- (NSNumber *)inflectionPointNearValue:(NSNumber *)value
+{
+    // TODO: implement
+    return nil;
+}
+
 
 @end
