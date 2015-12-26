@@ -26,6 +26,7 @@
 //
 
 #import <Foundation/Foundation.h>
+
 #import "MCKEquation.h"
 
 @interface MCKPolynomial : NSObject <MAVEquation>
