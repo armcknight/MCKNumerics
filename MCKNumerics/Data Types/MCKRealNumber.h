@@ -27,10 +27,7 @@
 
 #import <Foundation/Foundation.h>
 
-typedef enum : UInt8 {
-    MCKPrecisionSingle,
-    MCKPrecisionDouble,
-} MCKPrecision;
+#import "NSNumber+MCKPrecision.h"
 
 @interface MCKRealNumber : NSObject
 
