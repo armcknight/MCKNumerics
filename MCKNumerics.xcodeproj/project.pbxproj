@@ -567,6 +567,7 @@
 				E67E51A41C2F34CE0048A75E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
