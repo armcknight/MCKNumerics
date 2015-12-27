@@ -6,7 +6,7 @@
 //  Copyright © 2015 AMProductions. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 
 //! Project version number for MCKNumerics.
 FOUNDATION_EXPORT double MCKNumericsVersionNumber;
