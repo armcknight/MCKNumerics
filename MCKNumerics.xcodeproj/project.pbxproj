@@ -74,6 +74,7 @@
 		E67E519D1C2F34CE0048A75E /* MCKNumericsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MCKNumericsTests.m; sourceTree = "<group>"; };
 		E67E519F1C2F34CE0048A75E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E67E51A61C2F34DF0048A75E /* MCKTriboolTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCKTriboolTests.m; sourceTree = "<group>"; };
+		E67E51CF1C2F90420048A75E /* MCKNumerics.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = MCKNumerics.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +99,7 @@
 		4997356519259BA40004A8E5 = {
 			isa = PBXGroup;
 			children = (
+				E67E51CF1C2F90420048A75E /* MCKNumerics.xcconfig */,
 				499735A419259E390004A8E5 /* LICENSE */,
 				4997358719259C880004A8E5 /* MCKNumerics */,
 				E67E519C1C2F34CE0048A75E /* MCKNumericsTests */,
@@ -344,6 +346,7 @@
 		};
 		E67E51161C2F286E0048A75E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E67E51CF1C2F90420048A75E /* MCKNumerics.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -388,10 +391,8 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.AMProductions.MCKNumerics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -401,6 +402,7 @@
 		};
 		E67E51171C2F286E0048A75E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E67E51CF1C2F90420048A75E /* MCKNumerics.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
@@ -441,7 +443,6 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = com.AMProductions.MCKNumerics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
