@@ -45,9 +45,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4997357319259BFF0004A8E5 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		4997357519259BFF0004A8E5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4997357719259BFF0004A8E5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		4997358919259C880004A8E5 /* NSNumber+MCKMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+MCKMath.h"; sourceTree = "<group>"; };
 		4997358A19259C880004A8E5 /* NSNumber+MCKMath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+MCKMath.m"; sourceTree = "<group>"; };
 		4997358C19259C880004A8E5 /* MCKComplexNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCKComplexNumber.h; sourceTree = "<group>"; };
@@ -104,7 +101,6 @@
 				499735A419259E390004A8E5 /* LICENSE */,
 				4997358719259C880004A8E5 /* MCKNumerics */,
 				E67E519C1C2F34CE0048A75E /* MCKNumericsTests */,
-				4997357219259BFF0004A8E5 /* Frameworks */,
 				4997357119259BFF0004A8E5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -116,16 +112,6 @@
 				E67E519B1C2F34CE0048A75E /* MCKNumericsTests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4997357219259BFF0004A8E5 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				4997357319259BFF0004A8E5 /* XCTest.framework */,
-				4997357519259BFF0004A8E5 /* Foundation.framework */,
-				4997357719259BFF0004A8E5 /* UIKit.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		4997358719259C880004A8E5 /* MCKNumerics */ = {
