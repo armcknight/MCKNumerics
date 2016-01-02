@@ -1,6 +1,4 @@
-.DS_Store
-MCKNumerics/.DS_Store
-MCKNumerics.xcodeproj/xcuserdata
-Build
-MCKNumerics.xcworkspace/xcuserdata
-MCKNumerics.xcscmblueprint
+*.DS_Store
+*xcuserdata*
+*xcshareddata*
+*.xcscmblueprintS
