@@ -18,4 +18,16 @@ VALID_ARCHS[sdk=appletvsimulator*] = x86_64
 VALID_ARCHS[sdk=iphoneos*] = arm64 armv7s armv7
 VALID_ARCHS[sdk=iphonesimulator*] = i386 x86_64
 
+// platforms
+
 SUPPORTED_PLATFORMS = macosx iphoneos iphonesimulator watchos watchsimulator appletvos appletvsimulator
+
+IPHONEOS_DEPLOYMENT_TARGET = 6.0
+TVOS_DEPLOYMENT_TARGET = 9.0
+WATCHOS_DEPLOYMENT_TARGET = 2.0
+MACOSX_DEPLOYMENT_TARGET = 10.7
+
+// versioning
+
+CURRENT_PROJECT_VERSION = 0.4.0
+DYLIB_CURRENT_VERSION = 2
